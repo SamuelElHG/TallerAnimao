@@ -7,8 +7,8 @@ El personaje inicia en Idle
 Mantenga W para comenzar a caminar
 Una vez caminando mantenga Q para correr
 Suelte Q para volver a caminar
-Presione E para volver al idle
-Presione R en cualquier momento para saltar
+Mantenga E para volver al idle
+Mantenga S en cualquier momento para saltar
 
 # Para las cámaras
 Mueva el personaje desde la escena hacia alguna de las cámaras
