@@ -18,3 +18,6 @@ Simplemente dele a play, mueva el mouse para mover la mano y la cámara
 
 -Profe le quedo debiendo el blend tree y un sistema de desplazamiento
 -Al mover la cámara en el punto 3 mucho en una dirección probablemente pierda sensibilidad, y solo funciona hacia adelante
+
+
+-Profe por alguna razón está re buggeado el árbol de animaciones, pero funciona. Igual yo quiero cosas con quality of life así que hoy se lo arreglo si me lo permite
