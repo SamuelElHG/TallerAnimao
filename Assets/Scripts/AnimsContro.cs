@@ -15,19 +15,20 @@ public class AnimsContro : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.R)) //jump
-        {
-            _characterAnimator.SetInteger("Controller", 3);
-        }
+
 
         if (Input.GetKey(KeyCode.W)) //walk
-        {
-            _characterAnimator.SetInteger("Controller", 1);
+        {            _characterAnimator.SetInteger("Controller", 1);
         }
         else
         {
             _characterAnimator.SetInteger("Controller", 0);
         }
+        if (Input.GetKeyUp(KeyCode.W))
+        {
+            _characterAnimator.SetInteger("Controller", 0);
+        }
+
         if (Input.GetKey(KeyCode.Q)) //run
         {
             _characterAnimator.SetInteger("Controller", 2);
@@ -36,9 +37,14 @@ public class AnimsContro : MonoBehaviour
         {
             _characterAnimator.SetInteger("Controller", 1);
         }
+
         if (Input.GetKey(KeyCode.E)) //run
         {
             _characterAnimator.SetInteger("Controller", 0);
+        }
+        if (Input.GetKey(KeyCode.S)) //jump
+        {
+            _characterAnimator.SetInteger("Controller", 3);
         }
     }
 
